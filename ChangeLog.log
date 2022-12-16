@@ -1,0 +1,14 @@
+2022-12-15
+版本1.1.0 → 1.1.1
+Version 1.1.0 → 1.1.1
+
+1、将点击登录按钮后的自动关闭程序 延迟减少1.5s 现为0.5s
+1、Reduce the delay of automatically closing the program after clicking the login button by 1.5s to 0.5s now
+
+2、新增打开steam个人设置目录的功能 .\Steam\userdata\xxxx
+2、Add function to open steam personal config .\Steam\userdata\xxxx
+
+3、未使用管理员模式运行的时候 弹窗提示错误
+3、When running in the non administrator mode, an error message pops up
+
+----------------------------------
