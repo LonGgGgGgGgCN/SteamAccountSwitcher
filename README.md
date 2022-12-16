@@ -1,6 +1,6 @@
 # Steam账号切换器
 
-读取本地已登录过的steam账号 实现免密登录
+读取本地已登录过的steam账号 实现免密登录\
 版本1.1.1下载地址:
 https://github.com/LonGgGgGgGgCN/SteamAccountSwitcher/releases/download/v1.1.1/SteamAccountSwitcher_v1.1.1.zip 
 
@@ -8,7 +8,10 @@ https://github.com/LonGgGgGgGgCN/SteamAccountSwitcher/releases/download/v1.1.1/S
 ## 概述
 
 读取steam存储账号信息的文件```*\Steam\config\loginusers.vdf```作为登录账号的选项\
-此代码提供这些账号的登录 若三个月以内在本地登陆并记住密码过选择的账号 则可以实现该账号的免密(令牌)登录
+此代码提供这些账号的登录 若三个月以内在本地登陆并记住密码过选择的账号 则可以实现该账号的免密(令牌)登录\
+
+使用软件需要通过电脑的管理员模式打开 这是因为关闭或打开steam.exe程序不以管理员模式运行会出现意外的错误\
+仅仅测试win10、win11的系统版本 由于开发python的版本为3.9.7 某些不支持的系统可能会出现无法运行打包好的exe文件的错误(暂没想法更换python版本)
 
 
 ## 功能
