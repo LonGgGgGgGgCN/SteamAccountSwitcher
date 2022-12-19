@@ -1,8 +1,8 @@
 # Steam账号切换器
 
 读取本地已登录过的steam账号 实现免密登录\
-版本1.1.1下载地址:
-https://github.com/LonGgGgGgGgCN/SteamAccountSwitcher/releases/download/v1.1.1/SteamAccountSwitcher_v1.1.1.zip 
+下载地址:
+https://github.com/LonGgGgGgGgCN/SteamAccountSwitcher/releases
 
 
 ## 概述
@@ -17,9 +17,14 @@ https://github.com/LonGgGgGgGgCN/SteamAccountSwitcher/releases/download/v1.1.1/S
 ## 功能
 
 免密(令牌)登录在本地记住密码并成功登录过的steam账号\
-点击ui上的登录按钮后，自动关闭已启动的steam程序\
+点击ui上的登录按钮后，自动关闭已启动的steam程序
+
 2022-12-15 新增打开steam个人设置目录的功能\
 2022-12-15 新增未使用管理员模式运行的时候 弹窗提示错误
+
+2022-12-19 解决了点击登录后程序卡死，等反应过后才会等待关闭的问题\
+2022-12-19 更新了账号列表排序的逻辑，现在不以账号长度排序，以最后登录时间排序\
+2022-12-19 增加了鼠标指针悬浮在账号上会显示昵称和时间的功能
 
 ## 声明
 
