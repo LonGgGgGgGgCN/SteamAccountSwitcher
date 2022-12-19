@@ -34,7 +34,10 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Steam账号切换器_V1.1.1</string>
+   <string>SteamAccountSwitcher</string>
+  </property>
+  <property name="toolTip">
+   <string/>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:rgb(26,27,32);CustomizeWindowHint</string>
@@ -61,7 +64,10 @@
      <enum>Qt::DefaultContextMenu</enum>
     </property>
     <property name="toolTip">
-     <string/>
+     <string>可手动输入未登录过的账号</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>0</number>
     </property>
     <property name="accessibleName">
      <string/>
@@ -70,7 +76,7 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:rgb(50, 53, 60);color:rgb(175,175,175)</string>
+     <string notr="true">background-color:rgb(50, 53, 60);color:rgb(135,135,135)</string>
     </property>
     <property name="inputMethodHints">
      <set>Qt::ImhNone</set>
