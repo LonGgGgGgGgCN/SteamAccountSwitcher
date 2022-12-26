@@ -342,6 +342,47 @@ background-image: url();</string>
      <string>×</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_markname">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>158</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>为当前账号添加备注信息</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2px;
+background-color: rgb(70, 73, 80);
+background-image: url();
+color:rgb(175,175,175);
+
+</string>
+    </property>
+    <property name="text">
+     <string>添加/修改备注</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>
